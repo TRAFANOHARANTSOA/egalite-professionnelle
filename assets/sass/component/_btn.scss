@@ -1,0 +1,66 @@
+.icon .image{
+    height: 6vw;
+    width:5vw;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:1rem;
+}
+
+.next-icon .image{
+    height: 6vw;
+    width:6vw;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-icon .image {
+    width: 2.5vw !important;
+    position: absolute;
+    padding-top: 1vh;
+}
+
+
+
+.btn-celia {
+    border-radius: 50px;
+    color:$color-details;
+    background-color: white;
+    padding-left:2vw;
+    padding-right:2vw;
+    padding-top:0.5vh;
+    border: none;
+    margin:auto;
+    &:hover {
+        color: white;
+        background-color:$color-details;
+        border: 1px solid white;
+    }
+    &:active{
+        color: white;
+        background-color:$color-details;
+        border: 1px solid white;
+    }
+    &:focus{
+        color: white;
+        background-color:$color-details;
+        border: 1px solid white;
+    }
+    p {
+        padding: 0vh !important;
+        margin-bottom: 0vh !important;
+    }
+}
+.celia .btn-celia {
+    padding-top: -0.2vh !important;
+}
+.btn:focus{
+box-shadow: none;
+outline: none;
+}
+@media (min-width: 320px) and (max-width: 1000px) {
+    .btn-celia p{
+        font-size: 1.9vw!important;
+    }
+}

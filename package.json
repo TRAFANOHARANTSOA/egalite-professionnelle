@@ -1,0 +1,19 @@
+{
+  "name": "stc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./assets/sass/main.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celiabellod/stc-wordpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celiabellod/stc-wordpress/issues"
+  },
+  "homepage": "https://github.com/celiabellod/stc-wordpress#readme"
+}

@@ -1,0 +1,93 @@
+
+    
+#form {
+    height:28vh;
+    bottom:0;
+    left:2vw; 
+    background:white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display:none;
+    justify-content: center;
+}
+.form h2 {
+    font-family: 'Roboto slab';
+    color: #0DA5A0;
+    text-align: center;
+    height: 5vw;
+    font-weight: bold;
+}
+.form label {
+    color: #0DA5A0;
+}
+.form img {
+    width: 3vw;
+    height: 5.5vh;
+}
+.form .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+    display: flex;
+    justify-content:center;
+    }
+
+.form .btn-white {
+    border-radius: 20px;
+    color:white;
+    background-color: #0DA5A0;
+    padding: 1vh;
+    font-size: 0.8vw;
+    border: none;
+}
+.form .btn-white:hover, .form .btn-white:active, .form .btn-white:focus {
+    color: #0DA5A0;
+    background-color:white;
+    border: 1px solid #0DA5A0;
+}
+
+.form .close-form{
+    width: 1vw !important;
+    height: 2vh !important;
+    cursor: pointer;
+}
+
+#new-form {
+    display:none;
+}
+
+#form-extension{
+    color: #0DA5A0 !important;
+    display: none;
+}
+
+
+
+.form .btn-celia {
+    border-radius: 20px;
+    color:white;
+    background-color: #0DA5A0;
+    padding: 1vh;
+    font-size: 0.8vw;
+    border: none;
+}
+.form .btn-celia:hover, .btn-celia:active, .btn-celia:focus {
+        color:  #0DA5A0;
+        background-color:white;
+        border: 1px solid #0DA5A0;
+}
+
+#input-bad{
+    display:none;
+}
+
+#input-middle{
+    display:none;
+}
+
+#btn-bad-mobile, #btn-middle-mobile {
+    display:none;
+}

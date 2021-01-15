@@ -1,0 +1,21 @@
+body {
+    font-family: 'open sans';
+    color:white;
+}
+
+#rotateScreen{
+    text-align: center;
+    margin-top: 40vh;
+    transform: translateY(-50%);
+    display: none;
+    p {
+        font-size: 5vw;
+    }
+    img {
+        width: 60vw;
+    }
+}
+  
+#displayContent{
+    display: none;
+}

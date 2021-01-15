@@ -1,0 +1,66 @@
+.home {
+    font-family: 'Open sans';
+    height: 100vh;
+    color:white;
+    h1 {
+        font-family: 'Roboto slab';
+        padding: 2rem;
+    }
+    .description {
+        font-size: 1.2vw;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 2rem;
+    }
+    .home-logo img{
+        width: 20vh !important;
+        height: 20vh !important;
+    }
+    .home-perso img{
+        width: 25vh !important;
+        margin: auto;
+    }
+    a {
+        color:white;
+        &:hover {
+            color:white;
+        }
+    }
+}
+
+.carousel-control-next{
+    margin-top: 68vh;
+}
+
+.mobile-logo {
+    display:none;
+}
+
+@media (min-width: 320px) and (max-width: 1000px) {
+    .home p {
+        font-size: 1.5vw;
+        padding-left: 1vw;
+        padding-right: 0rem;
+        padding-top: 1vh !important;
+    }
+    .home .description {
+        display: none;
+    }
+    .home h1 {
+        font-size: 3.5vw;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        
+    }
+    .home .home-logo img{
+        width: 6vw !important;
+        height: 10vh !important;
+        padding-bottom:0;
+        margin-bottom:0;
+    }
+    .mentions-legales {
+        display:none;
+    }
+}
+
